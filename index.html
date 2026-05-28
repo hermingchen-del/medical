@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>醫療計畫小幫手</title>
+  
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#e6f7ff">
+  <link rel="apple-touch-icon" href="icon.png">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">🩺 醫療計畫小幫手 (民國年版)</div>
+  
+  <label class="label-text">選擇試辦計畫：</label>
+  <select id="programSelect">
+    <option value="">-- 請選擇計畫 --</option>
+    <option value="DM">糖尿病 (DM)</option>
+    <option value="ASTHMA">氣喘試辦計畫</option>
+    <option value="BCHEP">肝炎醫療給付改善方案</option>
+    <option value="CKD">慢性腎臟病 (CKD)</option>
+    <option value="METABOLIC">代謝症候群防治</option>
+    <option value="OPAT">門診靜脈抗生素治療 (OPAT)</option>
+    <option value="SMOKING">戒菸服務</option>
+    <option value="VIRTUAL_CODE">虛擬醫令代碼</option>
+    <option value="COPD">慢性阻塞性肺炎</option>
+    <option value="CANCER">癌症治療改善計畫</option>
+    <option value="DKD">DKD (糖腎整合)</option>
+  </select>
+
+  <div id="infoDisplay"></div>
+
+  <div id="calcSection" class="calc-section">
+    <div class="calc-title">📅 追蹤日期試算 (請輸入民國日)</div>
+    <div class="date-input-group">
+      <input type="number" id="yearY" placeholder="115"> 年
+      <input type="number" id="monthM" placeholder="01"> 月
+      <input type="number" id="dayD" placeholder="01"> 日
+    </div>
+    <div id="btnGroup" class="btn-group"></div>
+    
+    <div class="result-container">
+      <div id="dateResult" class="result-box">計算結果</div>
+      <button id="copyBtn" class="copy-btn">📋 複製</button>
+    </div>
+  </div>
+
+  <div class="watermark">河明製作</div>
+  <script src="app.js"></script>
+</body>
+</html>

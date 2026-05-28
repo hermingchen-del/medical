@@ -1,0 +1,78 @@
+/* 修改為自動適應手機寬度 */
+body { 
+  width: 100%; 
+  max-width: 500px; /* 手機顯示的最佳寬度 */
+  margin: 0 auto; 
+  padding: 20px; 
+  font-family: "Microsoft JhengHei", system-ui, sans-serif; 
+  background: #e6f7ff; /* 配色1：換成更柔和的淺藍色背景 */
+  box-sizing: border-box; 
+  position: relative; 
+}
+
+/* 🎨 上色區：標題換成深藍色 */
+.header { font-size: 1.6em; font-weight: 800; color: #1a66cc; text-align: center; margin-bottom: 20px; }
+.label-text { font-size: 1.1em; font-weight: bold; color: #2d3748; margin-bottom: 10px; display: block; }
+
+/* 讓下拉選單在手機上好點擊 */
+select { 
+  width: 100%; 
+  padding: 15px; 
+  font-size: 1.2em; 
+  border-radius: 10px; 
+  border: 3px solid #1a66cc; /* 配色2：邊框換成深藍色 */
+  margin-bottom: 20px; 
+  background-color: white;
+  color: #1a66cc; /* 文字也換藍色 */
+}
+
+/* 🎨 上色區：資訊卡邊框換藍色 */
+.info-card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border-left: 6px solid #1a66cc; margin-bottom: 15px; }
+.tag { font-size: 1em; font-weight: bold; padding: 4px 12px; border-radius: 6px; background: #e6f7ff; color: #1a66cc; margin-bottom: 10px; display: inline-block; }
+.tag.danger { background: #fff5f5; color: #c53030; border: 1px solid #feb2b2; }
+.danger-text { color: #c53030; font-weight: bold; }
+
+p { font-size: 1.1em; margin: 0 0 15px 0; color: #1a202c; line-height: 1.6; }
+
+/* CKD 工具優化與上色 */
+.uacr-inner-tool { padding: 15px; background: #e6f7ff; border: 1px solid #bae7ff; border-radius: 10px; }
+.uacr-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.uacr-row input { width: 80px; padding: 8px; border: 1px solid #cbd5e0; border-radius: 6px; }
+
+/* 🎨 上色區：日期輸入區分隔線 */
+.calc-section { margin-top: 25px; border-top: 2px solid #bae7ff; padding-top: 20px; }
+.calc-title { font-weight: bold; margin-bottom: 15px; color: #4a5568; }
+.date-input-group { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; font-size: 1.1em; justify-content: center; }
+.date-input-group input { width: 65px; padding: 12px; border: 2px solid #a0aec0; border-radius: 8px; text-align: center; }
+
+/* 按鈕加大方便手指點擊 */
+.btn-group { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
+button { 
+  flex: 1; 
+  min-width: 80px;
+  padding: 15px 10px; 
+  font-size: 1.1em; 
+  background: #1a66cc; /* 配色3：按鈕換成深藍色 */
+  color: white; 
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer; 
+  font-weight: bold; 
+  box-shadow: 0 3px 0 #124d9c; 
+}
+
+.result-container { display: flex; gap: 10px; align-items: stretch; }
+.result-box { 
+  flex: 2; 
+  background: #fffaf0; 
+  border: 2px solid #ed8936; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 1.2em; 
+  font-weight: 900; 
+  color: #7b341e; 
+  text-align: center;
+}
+.copy-btn { flex: 1; background: #2d3748; box-shadow: 0 3px 0 #1a202c; }
+
+.watermark { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-15deg); font-size: 60px; color: rgba(0, 0, 0, 0.04); font-weight: 900; pointer-events: none; z-index: 0; }

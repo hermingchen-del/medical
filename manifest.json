@@ -1,0 +1,16 @@
+{
+  "short_name": "醫療助手",
+  "name": "醫療計畫小幫手",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#e6f7ff",
+  "background_color": "#e6f7ff"
+}
