@@ -11,10 +11,10 @@ const planData = {
               "● R006：配合分級醫療政策，病人由醫院轉診至院所後第 1 次就醫，並符合轉診申報規定之案件。\n" +
               "● R007：病人因不可抗力或不可歸責之事由，致藥品遺失、損毀或無法使用(如配合衛福部食藥署公告藥品回收)，重新開立處方給病人，並於病歷中記載原因備查。\n" +
               "● R008：醫師查詢雲端或 API 系統提示病人有重複用藥情事，經向病人確認後排除未領藥紀錄，其餘藥天數小於(含)10 天開立處方，並於病歷中詳細記載原因備查。\n" +
-              "● <span class='highlight-amber'>主治:H8</span>(持慢性病連續處方領藥,<span class='danger-text'>預定出國</span>,提供切結文件,一次領取2個月或3個月用藥量案件)\n" +
-              "● <span class='highlight-amber'>主治:HA</span>(持慢性病連續處方領藥,<span class='danger-text'>返回離島地區</span>,提供切結文件,一次領取2個月或3個月用藥量案件)\n" +
-              "● <span class='highlight-amber'>主治:HB</span>(持慢性病連續處方領藥,<span class='danger-text'>已出海為遠洋漁船作業船員</span>,提供切結 文件,一次領取2個月或3個月用藥量案件) \n" +
-              "● <span class='highlight-amber'>主治:HC</span>(持慢性病連續處方領藥,<span class='danger-text'>已出海為國際航線船舶作業船員</span>,提供 切結文件,一次領取2個月或3個月用藥案件)  \n" +
+              "● <span class='highlight-amber'>主治:H8</span>(持慢性病連續處方領藥,<span class='danger-text'>預定出國</span>,提供切結文件,一次領取2個月或3個月用藥量案件)。\n" +
+              "● <span class='highlight-amber'>主治:HA</span>(持慢性病連續處方領藥,<span class='danger-text'>返回離島地區</span>,提供切結文件,一次領取2個月或3個月用藥量案件)。\n" +
+              "● <span class='highlight-amber'>主治:HB</span>(持慢性病連續處方領藥,<span class='danger-text'>已出海為遠洋漁船作業船員</span>,提供切結 文件,一次領取2個月或3個月用藥量案件)。\n" +
+              "● <span class='highlight-amber'>主治:HC</span>(持慢性病連續處方領藥,<span class='danger-text'>已出海為國際航線船舶作業船員</span>,提供 切結文件,一次領取2個月或3個月用藥案件)。\n" +
               "● <span class='highlight-amber'>主治:HD</span>(持慢性病連續處方領藥,<span class='danger-text'>罕見疾病病人</span>,提供切結文件,一次 領取2個月或3個月用藥案件) ",
 
     days: [] // 無天數按鈕
